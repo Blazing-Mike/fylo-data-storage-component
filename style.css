@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+   
+}
+
+body{
+    background: hsl(229, 57%, 11%)
+;
+    
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+   justify-content: center;
+   padding-top: 3rem;
+}
+
+ li{
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+    background:  hsl(229, 57%, 11%);
+    border-radius: 3rem;
+}
+
+p{
+    color: hsl(229, 7%, 55%);
+    font-size: 1.4rem;
+}
+
+b{
+color: hsl(243, 100%, 93%);
+}
+strong{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.component{
+    background: hsl(228, 56%, 26%);
+    padding: 1rem;
+    border-radius: 1rem;
+    border-top-right-radius: 6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 25rem;
+
+}
+
+.stats{
+    background:  hsl(228, 56%, 26%);
+    padding: 2rem;
+    width: 45rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 2rem;
+  }
+
+#myBar {
+    width: 73%;
+    height: 20px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    text-align: right; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+    border-radius: 3rem;
+  }
+
+
+
+.pointer{
+    width: 1.3rem;
+
+
+}
+
+.pop{
+    background: white;
+    padding: 2rem;
+    width: 15rem;
+    border-radius: 1em;
+    transform: translateY(5rem);
+}
+
+.flex{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+   margin-top: 10vh;
+
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
